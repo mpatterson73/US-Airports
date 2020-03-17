@@ -1,0 +1,5 @@
+category	description
+site_number	Landing facility site number - a unique identifying number which, together with the landing facility type code, forms the key to the airport record. (ex. 04508.*A)
+state	Associated state post office code standard two letter abbreviation for u.s. states and territories. (ex. IL, PR, CQ)
+sequence_number	Attendance schedule sequence number.  A number which, together with the site number, uniquely identifies the attendance schedule component.
+attendance_schedule	Airport attendance schedule (when minimum services are available). Format is months/days/hours where the first part describes the months that the facility is attended, then the days of the week that the facility is open, and finally the hours within the day that it is attended.  This field may also contain 'UNATNDD' for unattended facilities.  If there are different schedules for different times of the year or different days of the week there will be separate records for each set of monts, days, and hours of attendance.  (ex. 'ALL/MON-FRI/SR-SS' means the facility is open year-round, monday thru friday, from sunrise to sunset).
