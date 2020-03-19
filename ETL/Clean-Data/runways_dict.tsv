@@ -1,59 +1,59 @@
 category	category_id	description
-SiteNumber	DLID	Landing facility site number. The unique identifying number of the airport whose runway is being described. Together with the runway id field, this provides the unique key to a runway record.
-State	DLID	Runway state post office code. The state where the landing facility is located. This was used in sorting the entire file by state and site number.
-RunwayID	DLID	Runway identification. Ex. 01/19; 18L/36R (parallel runways); H1 (helipad); N/S (north/south); ALL/WAY (sealane); B1 (balloonport)
-RunwayLength	A31	Physical runway length (nearest foot) (ex. 3500)
-RunwayWidth	A32	Physical runway width (nearest foot) (ex. 100)
-RunwaySurfaceTypeCondition	A33	Runway surface type and condition. CONC - Portland cement concrete; ASPH - asphalt or bituminous concrete; SNOW - snow; ICE - ice; MATS - pierced steel planking, landing mats, membranes; TREATED - oiled, soil cement or lime stabilized; GRAVEL - gravel, cinders, crushed rock, coral or shells, slag; TURF - grass, sod; DIRT - natural soil; WATER - water; E - excellent condition; G - good condition; F - fair condition; P - poor condition; L - failed condition
-RunwaySurfaceTreatment	A34	Runway surface treatment. (ex. GRVD - saw-cut or plastic grooved; PFC - porous friction course; AFSC - aggregate friction seal coat; RFSC - rubberized friction seal coat; WC - wire comb or wire tine; NONE - no special surface treatment)
-EdgeLightsIntensity	A40	Runway lights edge intensity. (ex. HIGH - high; MED - medium; LOW - low; NSTD - non-standard lighting system; NONE - no edge lighting system)
-BaseEndID	A30A	Base end identifier. The runway end described by the following information. Relates to the first part of the runway identification. (ex. For runway 18/36 the base end is 18)
-BaseEndTrueAlignment	E46	Runway end true alignment true magnetic heading of the runway - to the nearest degree. (ex. For runway end 18, could be 184)
-BaseEndILSType	I22	Instrument landing system (ILS) type. (ex. ILS - instrument landing system; MLS - microwave landing system; SDF - simplified directional facility; localizer - localizer; LDA - localizer-type directional aid; ISMLS - interim standard microwave landing syst
-BaseEndRightTrafficPattern	A23	Right hand traffic pattern for landing aircraft. (ex. Y - yes; N - no)
-BaseEndMarkingsType	A42	Runway markings (type). (ex. PIR - precision instrument; NPI – non-precision instrument; BSC - basic; NRS - numbers only; NSTD - nonstandard (other than numbers only); BUOY - buoys (seaplane base); STOL - short takeoff and landing; NONE - none)
-BaseEndMarkingsCondition	A42	Runway markings (condition). (ex. G - good; F - fair; P - poor)
-BaseEndPhysicalLatitude	E68	Latitude of physical runway end (formatted).
-BaseEndPhysicalLatitudeS	E68S	Latitude of physical runway end (seconds).
-BaseEndPhysicalLongitude	E69	Longitude of physical runway end (formatted).
-BaseEndPhysicalLongitudeS	E69S	Longitude of physical runway end (seconds).
-BaseEndPhysicalElevation	E70	Elevation (feet MSL) at physical runway end. (ex. 58 120.5 13.0)
-BaseEndCrossingHeight	A44	Threshold crossing height (feet AGL). Height that the effective visual glide path crosses above the runway threshold. (ex. 32)
-BaseEndGlidePathAngle	A45	Visual glide path angle (hundredths of degrees). (ex. 3.00)
-BaseEndDisplacedLength	A51	Displaced threshold - length in feet from runway end. (ex. 120 or NONE)
-BaseEndVASI	A43	Visual glide slope indicators. Acronyms: SAVASI - simplified abbreviated visual approach slope indicator; VASI - visual approach slope indicator; PAPI - precision approach path indicator; tri - tri-color visual approach slope indicator; PSI - pulsating/st
-BaseEndCenterlineLights	A46	Runway centerline lights availability. (ex. Y - yes; N - no)
-BaseEndTouchdownLights	A46A	Runway end touchdown lights availability. (ex. Y - yes; N - no)
-BaseEndObjectDescription	A52	Controlling object description.
-BaseEndObjectHeight	A54	Controlling object height above runway height, in feet ADL, the object is above the physical runway end.
-ReciprocalEndID	A30A	Reciprocal end identifier. The runway end described by the following information. Relates to the first part of the runway identification. (ex. For runway 18/36 the reciprocal end is 36)
-ReciprocalEndTrueAlignment	E46	Runway end true alignment true magnetic heading of the runway - to the nearest degree. (ex. For runway end 36, could be 4)
-ReciprocalEndILSType	I22	Instrument landing system (ILS) type. (ex. ILS - instrument landing system; MLS - microwave landing system; SDF - simplified directional facility; localizer - localizer; LDA - localizer-type directional aid; ISMLS - interim standard microwave landing syst
-ReciprocalEndRightTrafficPattern	A23	Right hand traffic pattern for landing aircraft. (ex. Y - yes; N - no)
-ReciprocalEndMarkingsType	A42	Runway markings (type). (ex. PIR - precision instrument; NPI – non-precision instrument; BSC - basic; NRS - numbers only; NSTD - nonstandard (other than numbers only); BUOY - buoys (seaplane base); STOL - short takeoff and landing; NONE - none)
-ReciprocalEndMarkingsCondition	A42	Runway markings (condition). (ex. G - good; F - fair; P - poor)
-ReciprocalEndPhysicalLatitude	E68	Latitude of physical runway end (formatted).
-ReciprocalEndPhysicalLatitudeS	E68S	Latitude of physical runway end (seconds).
-ReciprocalEndPhysicalLongitude	E69	Longitude of physical runway end (formatted).
-ReciprocalEndPhysicalLongitudeS	E69S	Longitude of physical runway end (seconds).
-ReciprocalEndPhysicalElevation	E70	Elevation (feet MSL) at physical runway end. (ex. 58 120.5 13.0)
-ReciprocalEndCrossingHeight	A44	Threshold crossing height (feet AGL). Height that the effective visual glide path crosses above the runway threshold. (ex. 32)
-ReciprocalEndGlidePathAngle	A45	Visual glide path angle (hundredths of degrees). (ex. 3.00)
-ReciprocalEndDisplacedLength	A51	Displaced threshold - length in feet from runway end. (ex. 120 or NONE)
-ReciprocalEndVASI	A43	Visual glide slope indicators. Acronyms: SAVASI - simplified abbreviated visual approach slope indicator; VASI - visual approach slope indicator; PAPI - precision approach path indicator; tri - tri-color visual approach slope indicator; PSI - pulsating/st
-ReciprocalEndCenterlineLights	A46	Runway centerline lights availability. (ex. Y - yes; N - no)
-ReciprocalEndTouchdownLights	A46A	Runway end touchdown lights availability. (ex. Y - yes; N - no)
-ReciprocalEndObjectDescription	A52	Controlling object description.
-ReciprocalEndObjectHeight	A54	Controlling object height above runway height, in feet ADL, the object is above the physical runway end.
-RunwayWeightBearingCapacitySW	A35	Pavement strength under single wheel landing gear in thousands of pounds.
-RunwayWeightBearingCapacityDW	A36	Pavement strength under dual wheel landing gear in thousands of pounds.
-RunwayWeightBearingCapacityDT	A37	Pavement strength under dual tandem wheel landing gear in thousands of pounds.
-RunwayWeightBearingCapacityDDT	A38	Pavement strength under dual dual tandem wheel landing gear in thousands of pounds.
-BaseEndTakeOffRunAvailableTORA	A60	Declared distances Take Off Run Available, in feet.
-BaseEndTakeOffDistanceAvailableTODA	A61	Declared distances Take Off Distance Available, in feet.
-BaseEndAcltStopDistanceAvailableASDA	A62	Declared distances Actual Stop Distance Available, in feet.
-BaseEndLandingDistanceAvailableLDA	A63	Declared distances Landing Distance Available, in feet.
-ReciprocalEndTakeOffRunAvailableTORA	A60	Declared distances Take Off Run Available, in feet.
-ReciprocalEndTakeOffDistanceAvailableTODA	A61	Declared distances Take Off Distance Available, in feet.
-ReciprocalEndAcltStopDistanceAvailableASDA	A62	Declared distances Actual Stop Distance Available, in feet.
-ReciprocalEndLandingDistanceAvailableLDA	A63	Declared distances Landing Distance Available, in feet.
+site_number	DLID	Landing facility site number. The unique identifying number of the airport whose runway is being described. Together with the runway id field, this provides the unique key to a runway record.
+state	DLID	Runway state post office code. The state where the landing facility is located. This was used in sorting the entire file by state and site number.
+runway_id	DLID	Runway identification. Ex. 01/19; 18L/36R (parallel runways); H1 (helipad); N/S (north/south); ALL/WAY (sealane); B1 (balloonport)
+runway_length	A31	Physical runway length (nearest foot) (ex. 3500)
+runway_width	A32	Physical runway width (nearest foot) (ex. 100)
+runway_surface_type_cond	A33	Runway surface type and condition. CONC - Portland cement concrete; ASPH - asphalt or bituminous concrete; SNOW - snow; ICE - ice; MATS - pierced steel planking, landing mats, membranes; TREATED - oiled, soil cement or lime stabilized; GRAVEL - gravel, cinders, crushed rock, coral or shells, slag; TURF - grass, sod; DIRT - natural soil; WATER - water; E - excellent condition; G - good condition; F - fair condition; P - poor condition; L - failed condition
+runway_surface_treatment	A34	Runway surface treatment. (ex. GRVD - saw-cut or plastic grooved; PFC - porous friction course; AFSC - aggregate friction seal coat; RFSC - rubberized friction seal coat; WC - wire comb or wire tine; NONE - no special surface treatment)
+edge_lights_intensity	A40	Runway lights edge intensity. (ex. HIGH - high; MED - medium; LOW - low; NSTD - non-standard lighting system; NONE - no edge lighting system)
+base_end_id	A30A	Base end identifier. The runway end described by the following information. Relates to the first part of the runway identification. (ex. For runway 18/36 the base end is 18)
+base_true_alignment	E46	Runway end true alignment true magnetic heading of the runway - to the nearest degree. (ex. For runway end 18, could be 184)
+base_ils_type	I22	Instrument landing system (ILS) type. (ex. ILS - instrument landing system; MLS - microwave landing system; SDF - simplified directional facility; localizer - localizer; LDA - localizer-type directional aid; ISMLS - interim standard microwave landing syst
+base_right_pattern	A23	Right hand traffic pattern for landing aircraft. (ex. Y - yes; N - no)
+base_markings_type	A42	Runway markings (type). (ex. PIR - precision instrument; NPI – non-precision instrument; BSC - basic; NRS - numbers only; NSTD - nonstandard (other than numbers only); BUOY - buoys (seaplane base); STOL - short takeoff and landing; NONE - none)
+base_markings_cond	A42	Runway markings (condition). (ex. G - good; F - fair; P - poor)
+base_latitude	E68	Latitude of physical runway end (formatted).
+base_latitude_s	E68S	Latitude of physical runway end (seconds).
+base_longitude	E69	Longitude of physical runway end (formatted).
+base_longitude_s	E69S	Longitude of physical runway end (seconds).
+base_elevation	E70	Elevation (feet MSL) at physical runway end. (ex. 58 120.5 13.0)
+base_crossing_height	A44	Threshold crossing height (feet AGL). Height that the effective visual glide path crosses above the runway threshold. (ex. 32)
+base_glide_path_angle	A45	Visual glide path angle (hundredths of degrees). (ex. 3.00)
+base_displaced_length	A51	Displaced threshold - length in feet from runway end. (ex. 120 or NONE)
+base_vasi	A43	Visual glide slope indicators. Acronyms: SAVASI - simplified abbreviated visual approach slope indicator; VASI - visual approach slope indicator; PAPI - precision approach path indicator; tri - tri-color visual approach slope indicator; PSI - pulsating/st
+base_centerline_lights	A46	Runway centerline lights availability. (ex. Y - yes; N - no)
+base_touchdown_lights	A46A	Runway end touchdown lights availability. (ex. Y - yes; N - no)
+base_object	A52	Controlling object description.
+base_object_height	A54	Controlling object height above runway height, in feet ADL, the object is above the physical runway end.
+reciprocal_end_id	A30A	Reciprocal end identifier. The runway end described by the following information. Relates to the first part of the runway identification. (ex. For runway 18/36 the reciprocal end is 36)
+rcpr_true_alignment	E46	Runway end true alignment true magnetic heading of the runway - to the nearest degree. (ex. For runway end 36, could be 4)
+rcpr_ils_type	I22	Instrument landing system (ILS) type. (ex. ILS - instrument landing system; MLS - microwave landing system; SDF - simplified directional facility; localizer - localizer; LDA - localizer-type directional aid; ISMLS - interim standard microwave landing syst
+rcpr_right_pattern	A23	Right hand traffic pattern for landing aircraft. (ex. Y - yes; N - no)
+rcpr_markings_type	A42	Runway markings (type). (ex. PIR - precision instrument; NPI – non-precision instrument; BSC - basic; NRS - numbers only; NSTD - nonstandard (other than numbers only); BUOY - buoys (seaplane base); STOL - short takeoff and landing; NONE - none)
+rcpr_markings_cond	A42	Runway markings (condition). (ex. G - good; F - fair; P - poor)
+rcpr_latitude	E68	Latitude of physical runway end (formatted).
+rcpr_latitude_s	E68S	Latitude of physical runway end (seconds).
+rcpr_longitude	E69	Longitude of physical runway end (formatted).
+rcpr_longitude_s	E69S	Longitude of physical runway end (seconds).
+rcpr_elevation	E70	Elevation (feet MSL) at physical runway end. (ex. 58 120.5 13.0)
+rcpr_crossing_height	A44	Threshold crossing height (feet AGL). Height that the effective visual glide path crosses above the runway threshold. (ex. 32)
+rcpr_glide_path_angle	A45	Visual glide path angle (hundredths of degrees). (ex. 3.00)
+rcpr_displaced_length	A51	Displaced threshold - length in feet from runway end. (ex. 120 or NONE)
+rcpr_vasi	A43	Visual glide slope indicators. Acronyms: SAVASI - simplified abbreviated visual approach slope indicator; VASI - visual approach slope indicator; PAPI - precision approach path indicator; tri - tri-color visual approach slope indicator; PSI - pulsating/st
+rcpr_centerline_lights	A46	Runway centerline lights availability. (ex. Y - yes; N - no)
+rcpr_touchdown_lights	A46A	Runway end touchdown lights availability. (ex. Y - yes; N - no)
+rcpr_object	A52	Controlling object description.
+rcpr_object_height	A54	Controlling object height above runway height, in feet ADL, the object is above the physical runway end.
+runway_capacity_lbs_sw	A35	Pavement strength under single wheel landing gear in thousands of pounds.
+runway_capacity_lbs_dw	A36	Pavement strength under dual wheel landing gear in thousands of pounds.
+runway_capacity_lbs_dt	A37	Pavement strength under dual tandem wheel landing gear in thousands of pounds.
+runway_capacity_lbs_ddt	A38	Pavement strength under dual dual tandem wheel landing gear in thousands of pounds.
+base_tora	A60	Declared distances Take Off Run Available, in feet.
+base_toda	A61	Declared distances Take Off Distance Available, in feet.
+base_asda	A62	Declared distances Actual Stop Distance Available, in feet.
+base_lda	A63	Declared distances Landing Distance Available, in feet.
+rcpr_tora	A60	Declared distances Take Off Run Available, in feet.
+rcpr_toda	A61	Declared distances Take Off Distance Available, in feet.
+rcpr_asda	A62	Declared distances Actual Stop Distance Available, in feet.
+rcpr_lda	A63	Declared distances Landing Distance Available, in feet.

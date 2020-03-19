@@ -1,4 +1,4 @@
-category	description
+category	Description
 site_number	Landing facility site number - a unique identifying number which, together with the landing facility type code, forms the key to the airport record. (ex. 04508.*A)
 state	Associated state post office code standard two letter abbreviation for u.s. states and territories. (ex. IL, PR, CQ)
 sequence_number	Attendance schedule sequence number.  A number which, together with the site number, uniquely identifies the attendance schedule component.
