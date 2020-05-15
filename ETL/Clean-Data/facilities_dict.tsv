@@ -19,9 +19,7 @@ manager	A14	Facility manager's name.
 manager_address	A15	Manager's address.
 manager_csz	A15A	Manager's city, state and zip code.
 manager_phone	A16	Manager's phone number. (data formats: nnn-nnn-nnnn (area code + phone number), 1-nnn-nnnn (dial 1-800 then number), 8-nnn-nnnn (dial 800 then number)
-arp_latitude	A19	Airport reference point latitude (formatted).
 arp_latitude_s	A19S	Airport reference point latitude (seconds).
-arp_longitude	A20	Airport reference point longitude (formatted).
 arp_longitude_s	A20S	Airport reference point longitude (seconds).
 arp_elevation	A21	Airport elevation (nearest foot MSL). Elevation is measured at the highest point on the centerline of the usable landing surface. (ex. 1200; -10 for 10 feet below sea level)
 magnetic_variation	E28	Magnetic variation and direction magnetic variation to nearest degree. (ex. 03W)
@@ -34,7 +32,6 @@ boundary_artcc_id	E146A	Boundary ARTCC Identifier.  The boundary ARTCC is the FA
 boundary_artcc_name	E146C	Boundary ARTCC name. (ex. Washington)
 responsible_artcc_id	E156A	Responsible ARTCC identifier the responsible ARTCC is the FAA air route traffic control center who has assumed control over the airport through a letter of agreement with the boundary ARTCC. (ex. ZDC for Washington ARTCC)
 responsible_artcc_name	E156C	Responsible ARTCC name. (ex. Washington)
-tie_in_fss	A87	Tie-in FSS physically located on facility. (ex. Y - tie-in FSS is on the airport, n - tie-in FSS is not on the airport)
 tie_in_fss_id	A86	Tie-in flight service station (FSS) identifier. (ex. DCA for Washington FSS)
 tie_in_fss_name	A86	Tie-in FSS name. (ex. Washington)
 tie_in_fss_toll_free_number	A89	Toll free phone number from airport to FSS for pilot briefing services the data describes the type of toll-free communications and the number to dial. The data formats and their meanings are: 1-nnn-nnnn, dial 1-800- then nnn-nnnn; 8-nnn-nnnn, dial 800 then nnn-nnnn; e-nnnnnnnn, enterprise number dial 0 & ask for enterprise nnnnnnnn; lcnnn-nnnn, local call - dial nnn-nnnn; dl, direct line telephone at the airport - no dialing required; z-nnnnnnnn, zenith number - dial 0 and ask for zenith nnnnnnnn; w-nnnnnnnn, dial 0 and ask for wx nnnnnnnn; c-nnnnnnnn, dial 0 and ask for commerce nnnnnnnn; ld-nnnnnnnn, long distance call - dial (area code) then nnnnnnn; lt-nnnnnnnn, long distal call dial 1-nnnnnnn; 1-wx-brief, dial 1-800-wx-brief; 8-wx-brief, dial 800-wx-brief
@@ -58,15 +55,7 @@ ctaf_frequency	E100	Common traffic advisory frequency. (CTAF) (ex. 122.800)
 beacon_color	A80	Lens color of operable beacon located on the airport. (ex. CG - clear-green (lighted land airport); CY - clear-yellow (lighted seaplane base); CGY - clear-green-yellow (heliport); SCG - split-clear-green (lighted military airport); C - clear (unlighted la
 non_commercial_landing_fee	A24	Landing fee charged to non-commercial users of airport. (ex. Y - yes, N - no)
 medical_use	NONE	Landing facility is used for medical purposes. (ex. Y - yes, N - no)
-single_engine_ga	A90	Number of single engine general aviation aircraft.
-multi_engine_ga	A92	Number of multi engine general aviation aircraft.
-jet_engine_ga	A92	Number of jet engine general aviation aircraft.
-helicopters_ga	A93	Number of general aviation helicopter.
-gliders_operational	A94	Number of operational gliders.
-military_operational	A95	Number operational military aircraft (includingg helicopters).
-ultralights	A96	Number of ultralight aircraft.
 operations_commercial	A100	Commercial services. Scheduled operations by cab-certificated carriers or intrastate carriers.
-operations_commuter	A101	Commuter services. Scheduled commuter and cargo carriers.
 operations_air_taxi	A102	Air taxi. Air taxi operators carrying passengers, mail, or mail for revenue.
 operations_ga_local	A103	General aviation local operations. Those operating in the local traffic pattern or within a 20-mile radius of the airport.
 operations_ga_itin	A104	General aviation itinerant operations. Those general aviation operations (excluding commuter or air taxi) not qualifying as local.
