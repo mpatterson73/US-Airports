@@ -13,10 +13,6 @@ base_ils_type	I22	Instrument landing system (ILS) type. (ex. ILS - instrument la
 base_right_pattern	A23	Right hand traffic pattern for landing aircraft. (ex. Y - yes; N - no)
 base_markings_type	A42	Runway markings (type). (ex. PIR - precision instrument; NPI – non-precision instrument; BSC - basic; NRS - numbers only; NSTD - nonstandard (other than numbers only); BUOY - buoys (seaplane base); STOL - short takeoff and landing; NONE - none)
 base_markings_cond	A42	Runway markings (condition). (ex. G - good; F - fair; P - poor)
-base_latitude	E68	Latitude of physical runway end (formatted).
-base_latitude_s	E68S	Latitude of physical runway end (seconds).
-base_longitude	E69	Longitude of physical runway end (formatted).
-base_longitude_s	E69S	Longitude of physical runway end (seconds).
 base_elevation	E70	Elevation (feet MSL) at physical runway end. (ex. 58 120.5 13.0)
 base_crossing_height	A44	Threshold crossing height (feet AGL). Height that the effective visual glide path crosses above the runway threshold. (ex. 32)
 base_glide_path_angle	A45	Visual glide path angle (hundredths of degrees). (ex. 3.00)
@@ -32,10 +28,6 @@ rcpr_ils_type	I22	Instrument landing system (ILS) type. (ex. ILS - instrument la
 rcpr_right_pattern	A23	Right hand traffic pattern for landing aircraft. (ex. Y - yes; N - no)
 rcpr_markings_type	A42	Runway markings (type). (ex. PIR - precision instrument; NPI – non-precision instrument; BSC - basic; NRS - numbers only; NSTD - nonstandard (other than numbers only); BUOY - buoys (seaplane base); STOL - short takeoff and landing; NONE - none)
 rcpr_markings_cond	A42	Runway markings (condition). (ex. G - good; F - fair; P - poor)
-rcpr_latitude	E68	Latitude of physical runway end (formatted).
-rcpr_latitude_s	E68S	Latitude of physical runway end (seconds).
-rcpr_longitude	E69	Longitude of physical runway end (formatted).
-rcpr_longitude_s	E69S	Longitude of physical runway end (seconds).
 rcpr_elevation	E70	Elevation (feet MSL) at physical runway end. (ex. 58 120.5 13.0)
 rcpr_crossing_height	A44	Threshold crossing height (feet AGL). Height that the effective visual glide path crosses above the runway threshold. (ex. 32)
 rcpr_glide_path_angle	A45	Visual glide path angle (hundredths of degrees). (ex. 3.00)
